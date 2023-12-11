@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(226, 198, 176);
+    font-family:'Times New Roman', Times, serif;
+    color: azure;
+}
+h1{
+    color: azure;
+    font-family: 'Times New Roman', Times, serif;
+}
+.bigger-image {
+    width: 550px;
+    height: 350px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer{
+    z-index: 1;
+    .position:absolute
+  }
+  .common{
+    position:fixed
+  }
